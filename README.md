@@ -2,10 +2,11 @@
 // @name         Khan Respostas
 // @version      1.3
 // @description  Respostas
-// @author       Adriel
+// @author       Adriel Adriano
 // @match        https://pt.khanacademy.org/*
 // @grant        none
 // @namespace    https://greasyfork.org/users/1064859
+// @homepage     https://github.com/adrieladriano
 // ==/UserScript==
 
 (function () {
