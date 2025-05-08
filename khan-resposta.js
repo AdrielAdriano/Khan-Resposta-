@@ -1,5 +1,5 @@
 const APP = {
-  ver: "1.4.0",
+  ver: "1.2.0",
   user: {
     id: 0
   },
@@ -218,7 +218,7 @@ class UI {
                 }
             </style>
             <div class="khandestroyer-header">
-                scriptkhan <span class="khandestroyer-version">${APP.ver}</span>
+                KhanDestroyer <span class="khandestroyer-version">${APP.ver}</span>
             </div>
             <div class="khandestroyer-content">
                 <div class="khandestroyer-opt">
@@ -251,7 +251,7 @@ class UI {
                         </div>
                     </div>
                 </div>
-                <div class="khandestroyer-credit">by Adriel</div>
+                <div class="khandestroyer-credit">by iUnknownBr</div>
             </div>
         `;
     document.body.appendChild(_0x3d849d);
@@ -376,8 +376,8 @@ class Core {
   
   static setupMod() {
     const messages = [
-      "🔥",
-      "🤍 Made by [@AdrielDev]"
+      "🔥 Games Destroyer On Top[Discord](https://discord.gg/gamesdest)!",
+      "🤍 Made by [@iUnknownBr](https://guns.lol/iunknownbr)."
     ];
     
     const originalFetch = window.fetch;
@@ -486,11 +486,11 @@ async function initApp() {
     await Core.loadExternalLibraries();
     UI.init();
     Core.init();
-    console.log(`ScriptbotJunin v${APP.ver} iniciado com sucesso!`);
-    sendToast(`🚀 ScriptbotJunin v${APP.ver} iniciado!`, 3000);
+    console.log(`KhanDestroyer v${APP.ver} iniciado com sucesso!`);
+    sendToast(`🚀 KhanDestroyer v${APP.ver} iniciado!`, 3000);
   } catch (error) {
-    console.error("Erro ao inicializar ScriptbotJunin:", error);
-    sendToast("⚠️ Erro ao inicializar ScriptbotJunin", 5000);
+    console.error("Erro ao inicializar KhanDestroyer:", error);
+    sendToast("⚠️ Erro ao inicializar KhanDestroyer", 5000);
   }
 }
 
