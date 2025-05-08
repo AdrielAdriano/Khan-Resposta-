@@ -1,5 +1,5 @@
 const APP = {
-    ver: "1.2.0",
+    ver: "1.3.0",
     user: {
     id: 0
     },
