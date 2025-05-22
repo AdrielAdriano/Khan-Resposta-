@@ -218,7 +218,7 @@ class UI {
                 }
             </style>
             <div class="khandestroyer-header">
-                KhanDestroyer <span class="khandestroyer-version">${APP.ver}</span>
+                JuninKhan <span class="khandestroyer-version">${APP.ver}</span>
             </div>
             <div class="khandestroyer-content">
                 <div class="khandestroyer-opt">
@@ -251,7 +251,7 @@ class UI {
                         </div>
                     </div>
                 </div>
-                <div class="khandestroyer-credit">by iUnknownBr</div>
+                <div class="khandestroyer-credit">@adrielzzz300</div>
             </div>
         `;
     document.body.appendChild(_0x3d849d);
@@ -376,8 +376,8 @@ class Core {
   
   static setupMod() {
     const messages = [
-      "🔥 Games Destroyer On Top[Discord](https://discord.gg/gamesdest)!",
-      "🤍 Made by [@iUnknownBr](https://guns.lol/iunknownbr)."
+      "🔥 Faz o L HAHAHAHA",
+      "🤍 Made by [@Adrielzzz300]."
     ];
     
     const originalFetch = window.fetch;
@@ -489,8 +489,8 @@ async function initApp() {
     console.log(`KhanDestroyer v${APP.ver} iniciado com sucesso!`);
     sendToast(`🚀 KhanDestroyer v${APP.ver} iniciado!`, 3000);
   } catch (error) {
-    console.error("Erro ao inicializar KhanDestroyer:", error);
-    sendToast("⚠️ Erro ao inicializar KhanDestroyer", 5000);
+    console.error("Erro ao inicializar JuninKhan:", error);
+    sendToast("⚠️ Erro ao inicializar JuninKhan", 5000);
   }
 }
 
