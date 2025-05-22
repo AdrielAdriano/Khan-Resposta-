@@ -1,5 +1,5 @@
 const APP = {
-  ver: "1.2.0",
+  ver: "2.0.0",
   user: {
     id: 0
   },
@@ -486,8 +486,8 @@ async function initApp() {
     await Core.loadExternalLibraries();
     UI.init();
     Core.init();
-    console.log(`KhanDestroyer v${APP.ver} iniciado com sucesso!`);
-    sendToast(`🚀 KhanDestroyer v${APP.ver} iniciado!`, 3000);
+    console.log(`By @adrielzzz300 v${APP.ver} iniciado com sucesso!`);
+    sendToast(`🚀 By @adrielzzz300 v${APP.ver} iniciado!`, 3000);
   } catch (error) {
     console.error("Erro ao inicializar JuninKhan:", error);
     sendToast("⚠️ Erro ao inicializar JuninKhan", 5000);
